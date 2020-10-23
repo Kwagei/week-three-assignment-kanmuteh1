@@ -1,86 +1,111 @@
-body{
-    margin: 0px;
-    width: 100%;
-    height: 670px;
-}
-
 .container{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./images/img-1.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 670px;
-    margin: auto;
+    height: auto;
+    margin: 0px;
 }
 
-.nav-wrapper{
+.nav-container{
     margin-bottom: 7%;
-     padding: 20px;
-     display: flex;
-     background-color: black;
-     opacity: 75%;
+    padding: 30px;
+    background-color: black;
+    opacity: 75%;
+    display: grid;
+    grid-template-columns: 10% 70%;
+    box-sizing: border-box;
 }
 
 
-.nav-bar{
-    margin: auto;
-    width: 98%;
-    padding: 25px;
-    display: flex;
+.nav-bar-wrapper{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    margin-left: 8%;
+    width: 90%;
+    height: 75px;
+    padding: 20px;
+}
+
+.top-nav-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigators-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigators-bottom a:hover{
+    color: limegreen;
+}
+
+.navigators-bottom a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigators-top a:hover{
+    color: limegreen;
+}
+
+.bottom-nav-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-side-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.user-side-top a:hover{
+    color: limegreen;
+}
+
+.user-side-bottom input{
+    border: 2px solid blue;
+    border-radius: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    /* padding: 10px; */
+}
+
+.horizontal-line{
+    margin: 5px 0px 5px 0px;
+    width: 62%;
+    height: 2px;
+    background-color: dimgray;
 }
 
 .logo{
-    border: 2px solid brown;
-    background-color: brown;
-    width: 12%;  
-    height: 36px;
-    padding: 1%;
-    font-size: 20px;
-    margin-right: 5%;
+    background-color:  darkblue;
+    opacity: 100%;
+    width: 100%;
+    padding: 10px;
+    height: 65px;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 10%;
+    top: -10px;
+    right: 200px;
+    box-sizing: border-box;
 }
 
 .logo a{
     text-decoration: none;
-    text-transform: uppercase;
-    color: white; 
+    color: linen;
 }
 
-.navigators{
-    width: 60%;
-}
-
-.navigators a{
-    text-decoration: none;
-    color: white;
-    margin-right: 1%;
-}
-
-.navigators a:hover{
+.logo a :hover{
     color: limegreen;
-}
-
-.user-side a{
-    text-decoration: none;
-    color: white;
-}
-
-.user-side a:hover{
-    color: limegreen;
-}
-
-.post-property{
-    width: 100%;
-    border: 1px solid blue;
-    background-color: blue;
-    opacity: 100%;
-    border-radius: 7%;
-    padding: 5%;
-    color: white;
-    font-size: 15px;
 }
 
 .info-taker{
     width: 100%;
-    height: inherit;
+    height: 420px;
     position: relative;
 }
 
@@ -110,7 +135,7 @@ body{
     height: 250px;
     background-color: white;
     position: absolute;
-    top: -4%;
+     top: -12%; 
     left:55%;
 }
 
@@ -142,4 +167,236 @@ body{
     border-radius: 5%;
     color: white;
     font-size: 15px;
+}
+/* register styling */
+
+.info-taker-register{
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+.inquary-register{
+    width: 65%;
+    height: 200px;
+    padding: 3%;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    margin: auto;
+    border: 1px solid lightgray;
+    text-align: right;
+    position: relative;
+    z-index: 0;
+}
+
+.register-btn{
+    background-color: black;
+    opacity: 70%;
+    border: 2px solid white;
+    color: white;
+    width: 18%;
+    border-radius: 10%;
+}
+
+.form-register{
+    padding: 4%;
+    width: 20%;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    top: -12%;
+    left:20%;
+}
+
+.registration-btn{
+    width: 50%;
+    background-color: darkslategrey;
+    border: 2px solid darkslategray;
+    border-radius: 5%;
+    color: white;
+    font-size: 15px;
+}
+
+#select{
+    padding: 2%;
+}
+
+.forget-password{
+    margin-left: 53%;
+    font-size: 14px;
+    color: lightgreen;
+}
+
+#num{
+    margin-left: -5px;
+    padding: 2%;
+}
+
+.password{
+    width: 78%;
+    padding: 2%;
+}
+
+.login-btn{
+    margin-left: 50%;
+    width: 50%;
+    background-color: darkslategrey;
+    border: 2px solid darkslategray;
+    border-radius: 5%;
+    color: white;
+    font-size: 15px;
+}
+
+/* houses style */
+
+.houses-nav{
+    margin-bottom: 2%;
+    padding: 20px;
+    background-color: black;
+    opacity: 75%;
+    display: grid;
+    grid-template-columns: 10% 70%;
+}
+
+.houses-container{
+    top: -50px;
+}
+
+.grids-section{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-gap: 20px;
+}
+
+.grid-search{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    height: 450px;
+    background-color: blue;
+}
+
+.grid-head{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 100px;
+    background-color: green;
+}
+
+.grid-items-wrapper{
+    grid-column-start: 2;
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 20;
+    height: 800px;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.grid-adv{
+    grid-column: 3;
+    grid-row-start: 2;
+    grid-row-end: 14;
+    height: 700px;
+    background-color: orange;
+}
+
+.img-and-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.img-1{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-2{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-3{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-4{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-5{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-6{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-7{
+    width: 30%;
+    height: 110px;
+    background-color: lightcoral;
+    background-image: url(../RWD-PROJECT/images/img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt{
+    width: 70%;
+    height: 110px;
+    background-color: brown;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.four-btns{
+    margin: auto;
+    width: 55%;
+}
+
+.four-btns input{
+    color: black;
+    background-color: white;
+    margin-right: -7px;
+    padding: 2%;
+}
+
+.four-btns input:hover{
+    padding: 2%;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
 }

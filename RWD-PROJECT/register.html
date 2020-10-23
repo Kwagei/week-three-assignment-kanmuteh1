@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>RWD-PROJECT</title>
+        <title>RWD-PROJECT-Register</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body class="container">
@@ -31,7 +31,6 @@
                     <div class="bottom-nav-items">
                         <div class="navigators-bottom">
                             <a href="#">Home</a>
-                            <a href="#">&gt</a>
                             <a href="houses.html">Houses</a>
                         </div>
                         <div class="user-side-bottom">
@@ -41,24 +40,13 @@
                 </div>
             </nav>
         </header>
-        <main class="info-taker">
-            <section class="inquary">
-                <p>
-                    <b>Do you have an account?</b>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita 
-                </p>
-                <button class="register-btn">
-                    <b><a href="register.html">Register</a></b>
-                </button>
-            </section>
-            <section class="form">
+        <main class="info-taker-register">
+            <section class="form-register">
                 <form action="post" method="get" >
                     <p class="login">
-                        <b>Login</b>
+                        <b>Registration</b>
                     </p> 
-                    <select name="country-code" id="country-code" value="+231" id="select">
+                    <select name="country-code" id="country-code" value="+231" id="select-register">
                         <option value="+231">+231</option>
                         <option value="+231">+123</option>
                         <option value="+231">+232</option>
@@ -67,13 +55,24 @@
                         <option value="+231">+332</option>
                         <option value="+231">+323</option>
                     </select>
-                    <input type="text" name="num" id="num" placeholder="Phone number" class="Phone-number"><br><br>
-                    <input type="password" placeholder="Password" class="password">
-                    <p class="forget-password">Forget password?</p>
-                    <input type="button" value="Login" class="login-btn">
+                    <input type="text" name="num" id="num" placeholder="Phone number" class="Phone-number-register"><br><br>
+                    <input type="password" placeholder="Password" class="password-register">
+                    <p class="forget-password-register">Forget password?</p>
+                    <input type="button" value="Register" class="registration-btn">
                     <p class="login-icon">Login with</p>
                 </form>
                 </div>
+            </section>
+            <section class="inquary-register">
+                <p>
+                    <b>Already have an account?</b>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita 
+                </p>
+                <button class="register-btn">
+                    <b><a href="index.html">Login</a></b>
+                </button>
             </section>
         </main>
     </body>
