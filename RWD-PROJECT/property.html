@@ -8,10 +8,10 @@
 </head>
 <body class="properties-list-body">
     <header>
-        <nav class="houses-nav">
-            <div class="logo">
-                <a href="#">JT-SOLVE IT</a>
-            </div>
+        <div class="logo">
+            <a href="#"><h1>JT-SOLVE IT</h1></a>
+        </div>
+        <nav class="nav-container">
             <div class="nav-bar-wrapper">
                 <div class="top-nav-items">
                     <div class="navigators-top">
@@ -20,34 +20,32 @@
                     </div>
                     <div class="user-side-top">
                         <a href="index.html">Login</a>
-                        |
+                        <a href="#">|</a>
                         <a href="register.html">Register</a>
                     </div>
                 </div>
-                
-                <div class="horizontal-line">
-                    
-                </div>
+                <hr>
                 <div class="bottom-nav-items">
                     <div class="navigators-bottom">
                         <a href="property.html">Home</a>
+                        <a href="#">&gt</a>
                         <a href="properties-list.html">Houses</a>
-                    </div>
-                    <div class="user-side-bottom">
-                        <input type="button" value="Post a Property" class="post-property">
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="user-side-bottom">
+            <a href="properties-list.html"> <button class="post-property"><b>Post a Property</b></button></a>
+         </div>
     </header>
-    <main class="houses-container">
+    <main class="properties-container">
         <section class="property-grids-section">
             <div class="grid-search">
                 <div class="search-items">
                     <p>
                         Search
                     </p>
-                    <input type="text" placeholder="search" class="search" value="" name="search">
+                    <input type="text" placeholder="search" class="search" value="search" name="search">
                     <label for="category">
                         Category
                         <input type="text" id="category" placeholder="Most Recent" class="category" name="category">
@@ -93,7 +91,7 @@
                         </select>
                     </label>
                     <div class="done-btn">
-                        <input type="button" value="DONE" id="done" name="done">
+                        <input type="button" value="Done" id="done" name="done">
                     </div>
                 </div>
             </div>
@@ -186,8 +184,8 @@
             </div>
         </section>
     </main>
-    <footer class="footer-container">
-        <section class="footer-grid-container">
+    <footer class="footer-container-property">
+        <section class="footer-grid-container-property">
             <div class="contacts">
                 <p class="footer-p1">
                     <b>Contact Us</b>
@@ -220,7 +218,7 @@
             <hr class="footer-hr">
             <div class="copy-rights">
                 <div class="copy-right-detials">
-                    <p>copyright &copy; 2017-Kwagei-Group All Rights Reserved</p>
+                    <p><b>copyright &copy; 2017-Kwagei-Group All Rights Reserved</b></p>
                 </div>
                 <div class="copy-right-brand">
                     <a href="#">JT-SOLVE IT</a>

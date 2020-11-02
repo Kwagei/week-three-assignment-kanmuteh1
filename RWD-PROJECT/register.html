@@ -8,10 +8,10 @@
     </head>
     <body class="container">
         <header>
+            <div class="logo">
+                <a href="#"><h1>JT-SOLVE IT</h1></a>
+            </div>
             <nav class="nav-container">
-                <div class="logo">
-                    <a href="#">JT-SOLVE IT</a>
-                </div>
                 <div class="nav-bar-wrapper">
                     <div class="top-nav-items">
                         <div class="navigators-top">
@@ -20,35 +20,33 @@
                         </div>
                         <div class="user-side-top">
                             <a href="index.html">Login</a>
-                            |
+                            <a href="#">|</a>
                             <a href="register.html">Register</a>
                         </div>
                     </div>
-                    
-                    <div class="horizontal-line">
-                        
-                    </div>
+                    <hr>
                     <div class="bottom-nav-items">
                         <div class="navigators-bottom">
                             <a href="property.html">Home</a>
+                            <a href="#">&gt</a>
                             <a href="properties-list.html">Houses</a>
-                        </div>
-                        <div class="user-side-bottom">
-                            <input type="button" value="Post a Property" class="post-property">
                         </div>
                     </div>
                 </div>
             </nav>
+            <div class="user-side-bottom">
+                <a href="properties-list.html"> <button class="post-property"><b>Post a Property</b></button></a>
+             </div>
         </header>
         <main class="info-taker-register">
             <section class="form-register">
                 <form action="post" method="get" >
-                    <p class="login">
-                        <b>Registration</b>
+                    <p class="register">
+                        <b>Register</b>
                     </p> 
-                    
-                    <input type="text" name="name" id="name" placeholder="Full Name" class="name-register"><br><br>
-                    <select name="country-code" id="country-code" value="+231">
+                    <input type="text" placeholder="Full Name" class="password-register">
+                    <br><br>
+                    <select name="country-code" id="country-code-register" value="+231">
                         <option value="+231">+231</option>
                         <option value="+231">+123</option>
                         <option value="+231">+232</option>
@@ -57,28 +55,33 @@
                         <option value="+231">+332</option>
                         <option value="+231">+323</option>
                     </select>
-                    <input type="text" name="num" id="num" placeholder="Phone number" class="Phone-number-register"><br><br>
+                    <input type="text" name="num" placeholder="Phone number" id="num-register">
+                    <br><br>
                     <input type="password" placeholder="Password" class="password-register">
-                    <p class="forget-password-register">Forget password?</p>
-                    <input type="button" value="Register" class="registration-btn">
                     <br><br>
                     <label for="register-checkbox" class="label-register-checkbox">
-                        I agree to the<b>Terms and Conditions</b>
+                        I agree to the <b>Terms and Conditions</b>
                         <input type="checkbox" name="checkbox" id="register-checkbox">
                     </label>
-                    <p class="login-icon">Login with</p>
+                    <br><br>
+                    <input type="button" value="Register" class="registration-btn">
+                    <br><br>
+                    
+                    <p class="register-icon">Register with</p>
                 </form>
                 </div>
             </section>
-            <section class="inquary-register">
-                <p>
-                    <b>Already have an account?</b>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita 
-                </p>
-                <button class="register-btn">
-                    <b><a href="index.html">Login</a></b>
+            <section id="inquary-register">
+                <div class="inquary-register">
+                   <h3>
+                        <b>Already have an account?</b>
+                   </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita 
+                    </p>
+                </div>
+                <button class="login-btn-2">
+                    <a href="index.html"><b>Login</b></a>
                 </button>
             </section>
         </main>

@@ -8,10 +8,10 @@
     </head>
     <body class="container">
         <header>
+            <div class="logo">
+                <a href="#"><h1>JT-SOLVE IT</h1></a>
+            </div>
             <nav class="nav-container">
-                <div class="logo">
-                    <a href="#">JT-SOLVE IT</a>
-                </div>
                 <div class="nav-bar-wrapper">
                     <div class="top-nav-items">
                         <div class="navigators-top">
@@ -20,46 +20,43 @@
                         </div>
                         <div class="user-side-top">
                             <a href="index.html">Login</a>
-                            |
+                            <a href="#">|</a>
                             <a href="register.html">Register</a>
                         </div>
                     </div>
-                    
-                    <div class="horizontal-line">
-                        
-                    </div>
+                    <hr>
                     <div class="bottom-nav-items">
                         <div class="navigators-bottom">
                             <a href="property.html">Home</a>
                             <a href="#">&gt</a>
                             <a href="properties-list.html">Houses</a>
-                        </div>
-                        <div class="user-side-bottom">
-                            <input type="button" value="Post a Property" class="post-property">
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </nav>
+            <div class="user-side-bottom">
+               <a href="properties-list.html"> <button class="post-property"><b>Post a Property</b></button></a>
+            </div>
         </header>
-        <main class="info-taker">
-            <section class="inquary">
+        <main class="info-taker-login">
+            <section class="inquary-login">
                 <p>
                     <b>Do you have an account?</b>
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita 
+                <p class="login-intro-txt">
+                   <b> Lorem ipsum dolor sit amet consectetur <br> adipisicing  elit. Ut nulla, itaque expedita </b>
                 </p>
-                <button class="register-btn">
-                    <b><a href="register.html">Register</a></b>
-                </button>
             </section>
-            <section class="form">
+            <button class="register-btn">
+                <b><a href="register.html">Register</a></b>
+            </button>
+            <section class="form-login">
                 <form action="post" method="get" >
                     <p class="login">
-                        <b>Login</b>
+                        <b>LOGIN</b>
                     </p> 
-                    <select name="country-code" id="country-code" value="+231" id="select-register">
-                        <option value="+231">+231</option>
+                    <select name="country-code" id="country-code-login" value="+231">
+                        <option value="+231"><p>+231</p></option>
                         <option value="+231">+123</option>
                         <option value="+231">+232</option>
                         <option value="+231">+1</option>
@@ -67,10 +64,12 @@
                         <option value="+231">+332</option>
                         <option value="+231">+323</option>
                     </select>
-                    <input type="text" name="num" id="num" placeholder="Phone number" class="Phone-number-register"><br><br>
-                    <input type="password" placeholder="Password" class="password-register">
-                    <p class="forget-password-register">Forget password?</p>
-                    <input type="button" value="Login" class="registration-btn">
+                    <input type="text" name="num" id="num-login" placeholder="Phone number" class="Phone-number-login"><br><br>
+                    <input type="password" placeholder="Password" class="password-login">
+                    <br><br>
+                   <a href="#" class="forget-password-login"><b>Forget password?</b></a>
+                   <br><br>
+                    <input type="button" value="Login" class="login-btn-1">
                     <p class="login-icon">Login with</p>
                 </form>
                 </div>
