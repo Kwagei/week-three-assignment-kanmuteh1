@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RWD-Project-Houses</title>
+    <title>rwd-project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="properties-list-body">
     <header>
         <div class="logo">
-            <a href="#"><h1>JT-SOLVE IT</h1></a>
+            <a href="#"><p>JT-SOLVE IT</p></a>
         </div>
         <nav class="nav-container">
             <div class="nav-bar-wrapper">
@@ -30,91 +30,103 @@
                         <a href="property.html">Home</a>
                         <a href="#">&gt</a>
                         <a href="properties-list.html">Houses</a>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </nav>
         <div class="user-side-bottom">
-            <a href="properties-list.html"> <button class="post-property"><b>Post a Property</b></button></a>
-         </div>
+           <a href="properties-list.html"> <button class="post-property"><b>Post a Property</b></button></a>
+        </div>
     </header>
     <main class="properties-list-container">
         <section class="grids-section">
             <div class="grid-search">
-                <div class="search-items">
-                    <p>
-                        Search
-                    </p>
-                    <input type="text" placeholder="search" class="search" value="" name="search">
-                    <label for="category">
-                        Category
-                        <input type="text" id="category" placeholder="Most Recent" class="category" name="category">
-                        <select name="search-category" id="recent">
-                            <option value="first-cat-search"></option>
-                            <option value="second-cat-search"></option>
-                            <option value="third-cat-search"></option>
-                            <option value="fourth-cat-search"></option>
-                            <option value="fifth-cat-search"></option>
-                        </select>
-                    </label>
-                    <label for="location">
-                        Location
-                        <input type="text" id="location" placeholder="Most Recent" class="category" name="category">
-                        <select name="search-category" id="recent">
-                            <option value="first-cat-search"></option>
-                            <option value="second-cat-search"></option>
-                            <option value="third-cat-search"></option>
-                            <option value="fourth-cat-search"></option>
-                            <option value="fifth-cat-search"></option>
-                        </select>
-                    </label>
-                    <label for="bedrooms">
-                        Bedrooms
-                        <input type="text" id="bedrooms" placeholder="Most Recent" class="category" name="category">
-                        <select name="search-category" id="recent">
-                            <option value="first-cat-search"></option>
-                            <option value="second-cat-search"></option>
-                            <option value="third-cat-search"></option>
-                            <option value="fourth-cat-search"></option>
-                            <option value="fifth-cat-search"></option>
-                        </select>
-                    </label>
-                    <label for="bathrooms">
-                        Bathrooms
-                        <input type="text" id="bathrooms" placeholder="Most Recent" class="category" name="category">
-                        <select name="search-category" id="recent">
-                            <option value="first-cat-search"></option>
-                            <option value="second-cat-search"></option>
-                            <option value="third-cat-search"></option>
-                            <option value="fourth-cat-search"></option>
-                            <option value="fifth-cat-search"></option>
-                        </select>
-                    </label>
-                    <div class="done-btn">
-                        <input type="button" value="Done" id="done" name="done">
-                    </div>
-                </div>
+               <p class="search-txt">search</p>
+               <input type="text" class="search-input-area" placeholder="Search">
+               <br><br>
+               <label for="category">
+                   category
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="category" class="search-input">
+                   <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+               </label>
+             
+               <br><br>
+               <label for="location">
+                   Location
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="location" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="bedrooms">
+                   Bedrooms
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="bedrooms" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="bathrooms">
+                   Bathrooms
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="bathrooms" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="range">
+                <b>Price: $00.00-$10,000.00</b>
+                <input type="range" class="range" id="range">
+            </label>
+            <br><br>
+            <button class="done-btn"><b>Done</b></button>
             </div>
             <div class="grid-head">
                 <div class="sub-div-wrapper">
-                    <div class="sub-nav-right">
+                    <div class="sub-nav-left">
                         <a href="#">All</a>
                         <a href="#">Recent</a>
                         <a href="#">Sale</a>
                    </div>
                    <div class="sub-nav-right">
-                       <a href="#">View</a>
-   
-                       <label for="sort">
-                           Sort By
-                           <input type="text" id="sort" placeholder="Sort By">
-                           <select name="sort-item-options" id="sort-item-options">
-                               <option value="item-1"></option>
-                               <option value="item-2"></option>
-                               <option value="item-3"></option>
-                               <option value="item-4"></option>
-                           </select>
-                       </label>
+                       <div class="view">
+                           <a href="#">View</a>
+                       </div>
+                       <div class="sub-nav-icons">
+                           <div class="icon-1"></div>
+                           <div class="icon-2"></div>
+                       </div>
+                      <div class="sort">
+                        <label for="sort">
+                            <b>Sort By</b>
+                            <input type="text" id="sort" placeholder="Most Recent">
+                            <select name="sort-item-options" id="sort-item-options">
+                                <option value="item-1"></option>
+                                <option value="item-2"></option>
+                                <option value="item-3"></option>
+                                <option value="item-4"></option>
+                            </select>
+                        </label>
+                      </div>
                    </div>
                 </div>
             </div>
@@ -134,12 +146,12 @@
                                <input type="button" value="$500.00/month">
                            </div>
                        </div>
-                        <div class="four-btns">
-                            <input type="button" value="first">
-                            <input type="button" value="second">
-                            <input type="button" value="third">
-                            <input type="button" value="fourth">
-                        </div>
+                       <div class="four-btns">
+                        <input type="button" value="first">
+                        <input type="button" value="second">
+                        <input type="button" value="third">
+                        <input type="button" value="fourth">
+                    </div>
                     </div>
                 </div>
                 <div class="img-and-text">
@@ -280,9 +292,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="load-more">
-                    <button id="load-more">Load More</button>
-                </div>
+                    <button id="load-more-properties-list">Load More</button>
             </div>
             <div class="grid-adv">
                 <h3>Advertisment</h3>
