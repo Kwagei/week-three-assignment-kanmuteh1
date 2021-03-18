@@ -4,26 +4,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 700px;
+    height: 621px;
 }
-
-@media only screen and (max-width: 1280px) {
-   .container{
-       height: 950px;
-   }
-}
-
-@media only screen and (max-width: 1440px) {
-    .container{
-        height: 900px;
-    }
- }
-
- @media only screen and (max-width: 1280px) {
-    .container{
-        height: 950px;
-    }
- }
 
 .user-side-bottom{
     margin-left: 74%;
@@ -31,7 +13,7 @@
 
 .user-side-bottom input{
     border: 2px solid blue;
-    border-radius: 5%;
+    border-radius: 5px 5px 5px 5px;
     background-color: blue;
     color: white;
     font-size: 15px;
@@ -50,9 +32,9 @@ header{
     margin-bottom: 3%;
     padding: 30px;
     background-color: black;
-    opacity: 75%;
+    opacity: 65%;
     display: grid;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
     box-sizing: border-box;
     position: relative;
     z-index: 0;
@@ -63,7 +45,7 @@ header{
     grid-column-start: 2;
     grid-column-end: 10;
     margin-left: 8%;
-    width: 90%;
+    width: 88%;
     height: 15%;
     padding: 20px;
 }
@@ -141,7 +123,7 @@ hr{
     width: 100%;
     border: 2px solid blue;
     margin-right: -100%;
-    border-radius: 5%;
+    border-radius: 5px 5px 5px 5px;
     background-color: blue;
     color: white;
     font-size: 15px;
@@ -164,13 +146,13 @@ hr{
 .logo a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 /*login styling */
 .info-taker-login{
     margin-top: 6%;
     width: 100%;
-    height: 420px;
     position: relative;
 }
 
@@ -200,7 +182,7 @@ hr{
     padding: .3%;
     opacity: inherit;
     width: 13%;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
     position: absolute;
     z-index: 2;
 }
@@ -226,7 +208,7 @@ hr{
 .login{
     color:darkslategray;
     font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman, Times, serif';
 }
 
 #country-code-login{
@@ -248,7 +230,6 @@ hr{
 }
 
 .password-login{
-
     width: 90%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -272,7 +253,7 @@ hr{
     padding: 1.5%;
     background-color: darkslategrey;
     border: 2px solid darkslategray;
-    border-radius: 5%;
+    border-radius: 5px 5px 5px 5px;
     color: white;
     font-size: 15px;
 }
@@ -308,12 +289,42 @@ hr{
     color: blue;
 }
 
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .info-taker-login{
+        text-align: center;
+    }
+
+    .inquary-login{
+        display: none;
+    }
+
+    .form-login{
+        padding: 3%;
+        width: 86%;
+        height: 385px;
+        background-color: white;
+        position: absolute;
+        top: -9%; 
+        left:5%;
+        box-sizing: border-box;
+    }
+}
+
 /* register styling */
 
-.info-taker-register{
-    margin-top: 6%;
+.reg-container{
+    margin: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./images/img-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 420px;
+    height: 621px;
+}
+
+.info-taker-register{
+    margin-top: 4%;
+    width: 100%;
     position: relative;
     box-sizing: border-box;
 }
@@ -343,7 +354,7 @@ hr{
     border: 2px solid white;
     padding: .5%;
     width: 15%;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
     position: absolute;
     z-index: 2;
 }
@@ -356,9 +367,9 @@ hr{
 }
 
 .form-register{
-    padding: 3%;
+    padding: 2%;
     width: 25%;
-    height: 320px;
+    height: 345px;
     background-color: white;
     position: absolute;
     z-index: 10;
@@ -404,9 +415,10 @@ hr{
 .registration-btn{
     margin-left: 47%;
     width: 50%;
+    padding: 1.5%;
     background-color: darkslategrey;
     border: 2px solid darkslategray;
-    border-radius: 5%;
+    border-radius: 5px 5px 5px 5px;
     color: white;
     font-size: 15px;
 }
@@ -512,7 +524,7 @@ hr{
     color: white;
     border: 1px solid gray;
     background-color: grey;
-    border-radius: 7%;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .grid-head{
@@ -868,56 +880,32 @@ hr{
 }
 
 .properties-four-btns{
+    text-align: center;
     width: 100%;
-    padding-right: 2%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
-.properties-four-btns button{
+.properties-four-btns div{
     color: black;
-    width: 25%;
-    border: 1px solid lightgrey;
+    width: inherit;
+    border: 1px solid lightgray;
     background-color: white;
-    padding-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    height: 28px;
+    margin-bottom: -22px;
     box-sizing: border-box;
 }
 
-.first-btn{
-    margin-left: -2%;
-    margin-bottom: -10%;
-    width: 27%;
-}
-
-.second-btn{
-    margin-left: -2%;
-    margin-bottom: -10%;
-    width: 27%;
-    border-left: 1px solid lightgray;
-}
-
-.third-btn{
-    margin-left: -2%;
-    margin-bottom: -10%;
-    width: 27%;
-    border-left: 1px solid lightgray;
-}
-
-.fourth-btn{
-    margin-left: -2%;
-    margin-bottom: -10%;
-    width: 27%;
-    border-left: 1px solid lightgray;
+.properties-four-btns div:hover{
+    cursor: pointer;
 }
 
 .prize-btn input{
     background-color: lightgreen;
     border: 1px solid lightgreen;
-    margin-top: 56%;
+    margin-top: 49%;
     margin-right: -.5%;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #load-more-properties-list{
@@ -929,7 +917,7 @@ hr{
     color: white;
     font-size: 16px;
     background-color: lightslategray;
-    border-radius: 10%;
+    /* border-radius: 15px 15px 15px 15px; */
 }
 
 .footer-container-properties-list{
@@ -984,7 +972,7 @@ hr{
     color: white;
     font-size: 16px;
     background-color: lightslategray;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #load-more-properties-grid{
@@ -996,7 +984,7 @@ hr{
     color: white;
     font-size: 16px;
     background-color: lightslategray;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
 }
 .search{
     width: 90%;
@@ -1023,7 +1011,6 @@ hr{
 
 .img-and-text{
     display: flex;
-    justify-content: space-between;
     margin-bottom: 10px;
     border: 1px solid lightgrey;
 }
@@ -1110,16 +1097,19 @@ hr{
     border: 1px solid lightgreen;
     margin-top: 3%;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .four-btns{
-    margin: auto;
+    /* border: .3px solid black; */
+    height: 37px;
     width: 78%;
+    margin:auto
 }
 
 .four-btns input{
     color: black;
+    height: inherit;
     width: 25%;
     background-color: white;
     border: 1px solid lightgray;
@@ -1169,7 +1159,7 @@ hr{
     color: white;
     padding: 1%;
     border: 1px solid gray;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
     font-size: 15px;
 }
 
@@ -1179,7 +1169,7 @@ hr{
     color: white;
     padding: 1%;
     border: 1px solid gray;
-    border-radius: 10%;
+    border-radius: 5px 5px 5px 5px;
     font-size: 15px;
 }
 
