@@ -1,0 +1,89 @@
+.big-head{
+    height: 100px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    gap: 20px;
+}
+
+.left{
+    height: 100%;
+    padding-top: 7%;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+    height: 25px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.right hr{
+    margin-top: 1.5%;
+}
+
+.up, .down{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+
+.up-left, .down-left{
+    height: 34px;
+    width: 100%;
+}
+
+.down-left{
+    padding-top: 1.5%;
+}
+
+.up-right, .down-right{
+    height: 1px;
+    width: 100%;
+    text-align: right;
+}
+
+.down-left,.down-right{
+    margin-top: -2.5%;
+}
+
+.links{
+    margin-top: 16px;
+    padding-bottom: 4%;
+}
+
+.up-left .links a, .down-left a,.up-right a,.down-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+span{
+    color: white;
+    font-size: 18px;
+}
+
+.post-property{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    border: 2px solid blue;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}

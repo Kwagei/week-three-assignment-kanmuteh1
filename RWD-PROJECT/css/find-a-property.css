@@ -1,0 +1,42 @@
+.find-a-property{
+    height: inherit;
+    width:40%;
+    margin: 5% auto 0% auto;
+}
+
+.caption{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: .5rem;
+    margin-bottom: 1%;
+}
+
+.find{
+    width: 100%;
+    margin-bottom: 1%;
+}
+#find-input{
+    color: white;
+}
+
+.find input{
+    width: 100%;
+    padding: 1%;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    border: 1px solid black;
+} 
+.find input ::placeholder{
+    color: white;
+}
+
+
+.filfer-icon{
+    text-align: right;
+    color: white;
+}
+
+.latest{
+    margin-top: 55%;
+    text-align: center;
+    color: white;
+}
