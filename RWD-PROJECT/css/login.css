@@ -2,11 +2,11 @@
 
 .container{
     margin: 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/img-4.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=5");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 635px;
+    height: 656px;
 }
 
 .info-taker-login{
@@ -59,7 +59,7 @@
 .login{
     color:darkslategray;
     font-size: 22px;
-    font-family: 'Times New Roman, Times, serif';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #country-code-login{
@@ -149,4 +149,36 @@
     font-size: 20px;
     padding: 2%;
     color: blue;
+}
+
+
+@media (max-width: 720px){
+    .container{
+        margin: 0px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=5");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100% !important;
+        height: 720px;
+    }
+
+    .info-taker-login{
+        margin-top: 8%;
+        display: block;
+    }
+
+    .inquary-login{
+        display: none;
+    }
+
+    .form-login{
+        margin: auto;
+        padding: 3%;
+        width: 80%;
+        height: 385px;
+        background-color: white;
+        box-sizing: border-box;
+        left:10%;
+    }
+
 }

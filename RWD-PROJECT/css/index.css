@@ -11,36 +11,19 @@
 /* properties-list styling*/
 @import "properties-list.css";
 
+/* properties-grid styling */
+@import "property-grid.css";
+
 /* property styling */
 @import "property.css";
 
+/* find-a-property styling */
 @import "find-a-property.css";
 
 /* footer styling */
 @import "footer.css";
 
-/* responsive */
-@media only screen and (max-width: 768px) {
-    .info-taker-login{
-        text-align: center;
-    }
-
-    .inquary-login{
-        display: none;
-    }
-
-    .form-login{
-        padding: 3%;
-        width: 86%;
-        height: 385px;
-        background-color: white;
-        position: absolute;
-        top: -9%; 
-        left:5%;
-        box-sizing: border-box;
-    }
-}
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }

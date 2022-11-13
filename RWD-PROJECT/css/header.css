@@ -1,5 +1,5 @@
 .big-head{
-    height: 100px;
+    height: 108px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     display: grid;
     grid-template-columns: .3fr 1fr;
@@ -86,4 +86,61 @@ span{
     border: 2px solid blue;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
+}
+
+.hambugger{
+    display: none;
+}
+
+/* responsiveness */
+
+@media (max-width: 720px){
+    .big-head{
+        height: 108px;
+        padding-top: 4%;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        gap: 20px;
+    }
+
+    .left{
+        height: 100%;
+        padding-top: 3%;
+    }
+
+    #logo{
+        margin-left: 13%;
+        margin-right: auto;
+        padding: 5%;
+        text-align: center;
+        background-color: black;
+        text-transform: uppercase;
+        color: white;
+        width: 50%;
+        height: 25px;
+    }
+
+    .hambugger{
+        display: grid;
+        margin-left: 20%;
+        height: 100%;
+    }
+
+    #menu{
+        padding: 8%;
+        margin-top: 8%;
+        text-align: center;
+        font-size: 40px;
+        background-color: black;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: white;
+        width: 50%;
+        height: 40px;
+    }    
+
+    .right{
+        display: none;
+    }
 }
