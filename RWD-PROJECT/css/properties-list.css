@@ -444,30 +444,4 @@
     background-color: lightslategray; 
 }
 
-@media (max-width: 720px){
-    .grids-section{
-        width: 96%;
-        /* margin: 1% auto 2% auto; */
-        display: block;
 
-        /* grid-template-columns: .27fr 1fr 0.3fr;
-        grid-gap: 20px; */
-    }
-
-    .grid-items-wrapper-2{
-        display: block;
-    }
-
-    .img-txt-col{
-        border: 1px solid lightgrey;
-        background-color: white;
-        margin-bottom: 20%;
-        box-sizing: border-box;
-        height: 350px;
-    }
-
-    .footer-container-properties-grid{
-        display: none;
-    }
-
-}
