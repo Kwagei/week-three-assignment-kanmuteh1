@@ -23,7 +23,6 @@
 .houses-container{
     top: -50px;
     height: 1000px;
-    background-color: whitesmoke;
 }
 
 .grids-section{
@@ -105,15 +104,14 @@
 
 .sub-div-wrapper div a{
     text-decoration: none;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     color: gray;
     font-size: 18px;
 }
 
-.sub-div-wrapper div a:hover{
-    text-decoration: underline;
-    color: black;
-}
+.sub-div-wrapper div{
+    color: gray;
+} 
 
 .sub-div-wrapper label{
     color: gray;
@@ -132,13 +130,13 @@
     background-color: gray;
 }
 
-.sub-bar-icon{
+/* .sub-bar-icon{
     width: 20%;
     height: 20%;
-    background-image: url(./images/img-2.jpg);
+    background-image: url(../images/img-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 .sub-nav-right{
     width: 50%;
     height: inherit;
@@ -150,21 +148,17 @@
     display: flex;
     width: 40%;
 }
-.icon-1{
-    margin-right: 10%;
-    background-image: url(./images/img-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.list{
     width: 20%;
-    height: 100%;
+    height: 150%;
+    color: white;
 }
 
-.icon-2{
-    background-image: url(./images/img-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.grid{
     width: 20%;
-    height: 100%;
+    height: 150%;
+    color: white;
 }
 
 .grid-items-wrapper-1{
@@ -191,8 +185,12 @@
     border: 1px solid lightgrey;
 }
 
-.img-1{
+.img-cover{
     width: 30%;
+    height: 110px;
+}
+.img-1{
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -201,7 +199,7 @@
 }
 
 .img-2{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -210,7 +208,7 @@
 }
 
 .img-3{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -219,7 +217,7 @@
 }
 
 .img-4{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -228,7 +226,7 @@
 }
 
 .img-5{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -237,7 +235,7 @@
 }
 
 .img-6{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -246,14 +244,24 @@
 }
 
 .img-7{
-    width: 30%;
+    width: 100%;
     height: 110px;
     background-color: lightcoral;
     background-image: url(https://images.pexels.com/photos/7851904/pexels-photo-7851904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+#load-more-properties-grid{
+    margin-top: 8%;
+    margin-left: 43%;
+    width: 12%;
+    padding: .5%;
+    border: 1px solid lightslategray;
+    color: white;
+    font-size: 16px;
+    background-color: lightslategray;
+    border-radius: 5px 5px 5px 5px;
+} 
 
 /* grid-adv styling */
 .grid-adv{
@@ -261,13 +269,13 @@
     grid-row-start: 2;
     grid-row-end: 14;
     height: 700px;
-    background-color: white;
+    background-color: lightgray;
     text-align: center;
 }
 
 .grid-adv h3{
     margin-top: 325px;
-    color: lightslategray;
+    color: white;
 }
 
 .grid-items-wrapper-2{
@@ -434,4 +442,32 @@
     color: white;
     font-size: 16px;
     background-color: lightslategray; 
+}
+
+@media (max-width: 720px){
+    .grids-section{
+        width: 96%;
+        /* margin: 1% auto 2% auto; */
+        display: block;
+
+        /* grid-template-columns: .27fr 1fr 0.3fr;
+        grid-gap: 20px; */
+    }
+
+    .grid-items-wrapper-2{
+        display: block;
+    }
+
+    .img-txt-col{
+        border: 1px solid lightgrey;
+        background-color: white;
+        margin-bottom: 20%;
+        box-sizing: border-box;
+        height: 350px;
+    }
+
+    .footer-container-properties-grid{
+        display: none;
+    }
+
 }

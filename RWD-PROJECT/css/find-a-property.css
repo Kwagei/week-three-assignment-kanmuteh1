@@ -25,10 +25,10 @@
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
     border: 1px solid black;
 } 
+
 .find input ::placeholder{
     color: white;
 }
-
 
 .filfer-icon{
     text-align: right;

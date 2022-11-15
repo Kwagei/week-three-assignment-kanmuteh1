@@ -7,10 +7,9 @@
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./images/fontawesome-free-5.15.1-web/css/all.css">
     </head>
-    <body class="container" id="app">
+    <body class="container">
         <header>
             <div class="big-head">
-                
                 <div class="left">
                     <div id="logo">
                        <a href="index.html">Houses</a> 
@@ -20,13 +19,13 @@
                     <div class="up">
                         <div class="up-left">
                             <div class="links">
-                                <a href="property.html">Home</a>
+                                <a href="index.html">Home</a>
                                 <a href="properties-grid.html">Our Properties</a>
                             </div>
                         </div>
                         <div class="up-right">
                             <div class="links">
-                                <a href="index.html">Login</a>
+                                <a href="login.html">Login</a>
                                 <span>|</span>
                                 <a href="register.html">Register</a>
                             </div>
@@ -36,14 +35,11 @@
                     <div class="down">
                         <div class="down-left">
                             <div class="links">
-                                <a href="property.html">Home</a>
-                                <span>&gt</span>
-                                <a href="properties-list.html">Houses</a>
                             </div>
                         </div>
                         <div class="down-right">
                             <div class="links">
-                                <a href="properties-list.html">
+                                <a href="#">
                                      <button class="post-property"><b>Post a Property</b></button>
                                 </a>
                             </div>
@@ -57,9 +53,9 @@
                 </div>
             </div>
         </header>
-        <main class="info-taker-login">
-            <div class="inquary-login">
-                <p>
+        <main>
+            <!-- <section class="inquary-login"> -->
+                <!-- <p>
                     <b>Do you have an account?</b>
                 </p>
                 <p class="login-intro-txt">
@@ -70,10 +66,26 @@
                 <button class="register-btn">
                     <a href="register.html">Register</a>
                 </button>
-            </div>
+            </section> -->
             
-            <div class="form-login">
-                <form action="post" method="get" >
+            <div class="find-a-property">
+                <div class="caption">
+                    Real estate without hassle
+                </div>
+                <div class="find">
+                    <input class="fas fa-search" placeholder="FIND A PROPERTY" type="text" id="find-input">
+                </div>
+                <div class="filfer-icon">
+                    <i class="fas fa-filter" id="filter">Filter</i>
+                </div>
+                <div class="latest">
+                    <div class="latest-txt">
+                        OUR LATEST POSTING
+                    </div>
+                    <i class="fas fa-arrow-down" id="arrow"></i>
+                </div>
+            </div>
+                <!-- <form action="post" method="get" >
                     <p class="login">
                         <b>LOGIN</b>
                     </p> 
@@ -105,10 +117,7 @@
                         <i class="fab fa-twitter-square" id="twitter-icon"></i>
                     </p>
                 </form>
-                </div>
-            </div>
+                </div> -->
         </main>
-        <script src="https://unpkg.com/vue@next"></script>
-        <script src="./js/script.js"></script>
     </body>
 </html>
