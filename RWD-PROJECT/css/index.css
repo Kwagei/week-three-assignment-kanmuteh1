@@ -20,10 +20,19 @@
 /* find-a-property styling */
 @import "find-a-property.css";
 
+/* filter styling */
+@import "filter.css";
+
 /* footer styling */
 @import "footer.css";
 
-
-body{
+html, body {
+    margin: 0;
+    height: 100%;
     font-family: Helvetica, Arial, sans-serif;
 }
+  
+/* * {
+font-family: "Raleway";
+box-sizing: border-box;
+} */

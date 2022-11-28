@@ -79,34 +79,67 @@
 }
 
 .btn input{
-    background-color: lightgreen;
-    border: 1px solid lightgreen;
+    background-color: #03C8A8;
+    border: 1px solid #03C8A8;
     margin-top: 3%;
     color: white;
     font-size: 18px;
 }
 
 .four-btns{
-    height: 37px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 30px;
     width: 78%;
     margin:auto
 }
 
-.four-btns input{
+.ratings{
     color: black;
+    text-align: center;
     height: inherit;
-    width: 25%;
+    width: 90%;
     background-color: white;
     border: 1px solid lightgray;
-    margin-left: -6px;
+    /* margin-left: -6px; */
     padding: 2%;
 }
 
-.four-btns input:hover{
+#booking{
+    margin-top: 4%;
+    color: gray;
+}
+
+.four-btns .ratings:hover{
+    cursor: pointer;
+}
+
+/* single property rating button */
+
+.single-prop-four-btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 30px;
+    width: 78%;
+}
+
+.single-prop-ratings{
+    color: black;
+    text-align: center;
+    height: inherit;
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray;
     padding: 2%;
-    border: 1px solid white;
-    color: white;
-    background-color: black;
+}
+
+.four-btns .single-prop-ratings:hover{
+    cursor: pointer;
+}
+
+#booking{
+    margin-top: 4%;
+    color: gray;
 }
 
 .apaerment-talk{
@@ -129,8 +162,8 @@
 }
 
 .apartment-prize-btn input{
-    background-color: lightgreen;
-    border: 1px solid lightgreen;
+    background-color: #03C8A8;
+    border: 1px solid #03C8A8;
     margin-top: 50%;
     color: white;
     padding: 12%;
@@ -182,9 +215,6 @@
     box-sizing: border-box;
 }
 
-.property-four-btns button{ 
-    border: 1px solid lightslategray;
-}
 .property-grid-adv{
     grid-column: 3;
     grid-row-start: 1;

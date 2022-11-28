@@ -3,11 +3,10 @@
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     display: grid;
     grid-template-columns: .3fr 1fr;
-    gap: 20px;
+    gap: .08%;
 }
 
 .left{
-    height: 100%;
     padding-top: 7%;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .right{
-    margin-right: 20px;
+    width: 94%;
 }
 
 .right hr{
@@ -80,6 +79,7 @@ span{
 }
 
 .post-property{
+    width: 36%;
     background-color: blue;
     color: white;
     padding: 1%;
@@ -118,7 +118,7 @@ span{
         text-transform: uppercase;
         color: white;
         width: 50%;
-        height: 25px;
+        height: 30px;
     }
 
     .hambugger{

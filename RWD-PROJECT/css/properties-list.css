@@ -41,6 +41,10 @@
     background-color: lightgray;
 }
 
+input{
+    outline: none;
+}
+
 .search-txt{
     color:gray;
     font-size: 18px;
@@ -76,7 +80,6 @@
 #range{
     width: 92%;
     height: .3%;
-    background-color: green;
 }
 
 .done-btn{
@@ -104,7 +107,6 @@
 
 .sub-div-wrapper div a{
     text-decoration: none;
-    /* margin-right: 10px; */
     color: gray;
     font-size: 18px;
 }
@@ -129,14 +131,6 @@
     color: white;
     background-color: gray;
 }
-
-/* .sub-bar-icon{
-    width: 20%;
-    height: 20%;
-    background-image: url(../images/img-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 .sub-nav-right{
     width: 50%;
     height: inherit;
@@ -152,14 +146,13 @@
 .list{
     width: 20%;
     height: 150%;
-    color: white;
 }
 
 .grid{
     width: 20%;
     height: 150%;
-    color: white;
 }
+
 
 .grid-items-wrapper-1{
     grid-column: 2;
@@ -189,6 +182,7 @@
     width: 30%;
     height: 110px;
 }
+
 .img-1{
     width: 100%;
     height: 110px;
@@ -251,6 +245,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #load-more-properties-grid{
     margin-top: 8%;
     margin-left: 43%;
@@ -300,10 +295,24 @@
 
 .first-p-1{
     font-size: 18px;
+    line-height: 0px;
 }
 
 .second-p2{
     font-size: 12px;
+    margin-bottom: -3%;
+}
+
+.txt-and-btn span{
+    color: black !important;
+    font-size: 2rem; 
+    line-height: 8px;
+    margin-left: 85%;
+}
+
+.second-p3{
+    font-size: 12px;
+    line-height: 1px;
 }
 
 .img-txt-col{
@@ -311,7 +320,7 @@
     background-color: white;
     margin-bottom: 2%;
     box-sizing: border-box;
-    height: 294px;
+    height: 283px;
 }
 
 .img-1-col-1{
@@ -404,6 +413,10 @@
     text-align: end;
 }
 
+#change_history{
+    color: gray;
+}
+
 .properties-four-btns{
     text-align: center;
     width: 100%;
@@ -416,19 +429,26 @@
     width: inherit;
     border: 1px solid lightgray;
     background-color: white;
-    margin-bottom: -23px;
     box-sizing: border-box;
 }
 
- .properties-four-btns div:hover{
+.change_history{
+    text-align: right;
+}
+
+.properties-four-btns .two{
+    padding-top: 8%;
+}
+
+.properties-four-btns div:hover{
     cursor: pointer;
 }
 
 .prize-btn input{
-    background-color: lightgreen;
-    border: 1px solid lightgreen;
-    margin-top: 49%;
-    margin-right: -.5%;
+    background-color: #03C8A8;
+    border: 1px solid #03C8A8;
+    margin-top: 48.5%;
+    margin-right: -.4%;
     color: white;
     font-size: 20px;
 }

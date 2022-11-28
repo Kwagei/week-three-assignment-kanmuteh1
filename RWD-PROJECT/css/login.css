@@ -9,6 +9,10 @@
     height: 656px;
 }
 
+input{
+    outline: none;
+}
+
 .info-taker-login{
     margin-top: 6%;
     width: 100%;
