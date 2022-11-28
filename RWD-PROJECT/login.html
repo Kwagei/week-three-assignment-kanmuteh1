@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rwd-project</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./images/fontawesome-free-5.15.1-web/css/all.css">
+    </head>
+    <body class="container" id="app">
+        <header>
+            <div class="big-head">
+                <div class="left">
+                    <div id="logo">
+                        <a href="index.html">Houses</a> 
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="up">
+                        <div class="up-left">
+                            <div class="links">
+                                <a href="index.html">Home</a>
+                                <a href="properties-grid.html">Our Properties</a>
+                            </div>
+                        </div>
+                        <div class="up-right">
+                            <div class="links">
+                                <a href="login.html">Login</a>
+                                <span>|</span>
+                                <a href="register.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <div class="down-left">
+                            <div class="links">
+                                <a href="index.html">Home</a>
+                                <span>&gt</span>
+                                <a href="#">Houses</a>
+                            </div>
+                        </div>
+                        <div class="down-right">
+                            <div class="links">
+                                <a href="#">
+                                    <button class="post-property"><b>Post a Property</b></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hambugger">
+                    <div id="menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="info-taker-login">
+            <div class="inquary-login">
+                <p>
+                    <b>Do you have an account?</b>
+                </p>
+                <p class="login-intro-txt">
+                   Lorem ipsum dolor sit amet consectetur adipisicing  elit. Ut nulla, <br>
+                   itaque expeditas Lorem, ipsum dolor sit amet consectetur adipis <br>
+                   elit. Obca, alias iste? 
+                </p>
+                <button class="register-btn">
+                    <a href="register.html">Register</a>
+                </button>
+            </div>
+            
+            <div class="form-login">
+                <form action="post" method="get" >
+                    <p class="login">
+                        <b>LOGIN</b>
+                    </p> 
+                    <select name="country-code" id="country-code-login" value="+231">
+                        <option value="+231"><p>+ 231</p></option>
+                        <option value="+231">+ 123</option>
+                        <option value="+231">+ 232</option>
+                        <option value="+231">+ 1</option>
+                        <option value="+231">+ 223</option>
+                        <option value="+231">+ 332</option>
+                        <option value="+231">+ 323</option>
+                    </select>
+                    <i class="fas fa-phone-alt" id="phone-contact"></i>
+                    <input type="text" name="num" id="num-login" placeholder="Phone number" class="Phone-number-login"><br><br>
+                    <i class="fas fa-lock" id="lock"></i>
+                    <input type="password" placeholder="Password" class="password-login">
+                    <br><br>
+                    <div id="login">
+                        <div class="f-password">
+                            <a href="#" class="forget-password-login"><b>Forget password?</b></a>
+                        </div>
+                        <div id="login-btn">
+                            <button>Login</button>
+                        </div>
+                    </div>
+                    <p class="login-icon">
+                        Login with  
+                        <i class="fab fa-facebook-square" id="facebook-icon"></i>
+                        <i class="fab fa-twitter-square" id="twitter-icon"></i>
+                    </p>
+                </form>
+                </div>
+            </div>
+        </main>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

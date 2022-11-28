@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rwd-project</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="properties-list-body">
+    <header>
+        <div class="big-head">
+            <div class="left">
+                <div id="logo">
+                    <a href="index.html">Houses</a> 
+                </div>
+            </div>
+            <div class="right">
+                <div class="up">
+                    <div class="up-left">
+                        <div class="links">
+                            <a href="index.html">Home</a>
+                            <a href="properties-grid.html">Our Properties</a>
+                        </div>
+                    </div>
+                    <div class="up-right">
+                        <div class="links">
+                            <a href="login.html">Login</a>
+                            <span>|</span>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="down">
+                    <div class="down-left">
+                        <div class="links">
+                            <a href="index.html">Home</a>
+                            <span>&gt</span>
+                            <a href="#">Houses</a>
+                        </div>
+                    </div>
+                    <div class="down-right">
+                        <div class="links">
+                            <a href="#">
+                                 <button class="post-property"><b>Post a Property</b></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hambugger">
+                <div id="menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="properties-list-container">
+        <section class="grids-section">
+            <div class="grid-search">
+               <p class="search-txt">search</p>
+               <input type="text" class="search-input-area" placeholder="Search">
+               <br><br>
+               <label for="category">
+                   category
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="category" class="search-input">
+                   <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+               </label>
+             
+               <br><br>
+               <label for="location">
+                   Location
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="location" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="bedrooms">
+                   Bedrooms
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="bedrooms" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="bathrooms">
+                   Bathrooms
+                   <br>
+                   <input type="text" placeholder="Most Recent" id="bathrooms" class="search-input">
+                   <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+               </label>
+               <br><br>
+               <label for="range">
+                <b>Price: $00.00-$10,000.00</b>
+                <input type="range" class="range" id="range">
+            </label>
+            <br><br>
+            <button class="done-btn"><b>Done</b></button>
+            </div>
+            <div class="grid-head">
+                <div class="sub-div-wrapper">
+                    <div class="sub-nav-left">
+                        <a href="#">All</a>
+                        <a href="#">Recent</a>
+                        <a href="#">Sale</a>
+                   </div>
+                   <div class="sub-nav-right">
+                       <div class="view">
+                           View
+                       </div>
+                       <div class="sub-nav-icons">
+                           <div class="list">
+                                <a href="./properties-list.html">
+                                    <i class="fas fa-list"></i>
+                                </a>
+                           </div>
+                           <div class="grid">
+                                <a href="./properties-grid.html">
+                                    <i class="fas fa-grip"></i>
+                                </a>
+                           </div>
+                       </div>
+                      <div class="sort">
+                        <label for="sort">
+                            <b>Sort By</b>
+                            <input type="text" id="sort" placeholder="Most Recent">
+                            <select name="sort-item-options" id="sort-item-options">
+                                <option value="item-1"></option>
+                                <option value="item-2"></option>
+                                <option value="item-3"></option>
+                                <option value="item-4"></option>
+                            </select>
+                        </label>
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <div class="grid-items-wrapper">
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-and-text">
+                    <div class="img-cover">
+                        <a href="./property.html">
+                            <div class="img-1">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                       <div class="subtxt-and-btn">
+                           <div class="subtxt">
+                                <p>
+                                    Lorem, ipsum dolor sit  adipisicing elit.
+                                </p>
+                           </div>
+                           <div class="btn">
+                               <input type="button" value="$500.00/month">
+                           </div>
+                       </div>
+                        <div class="four-btns">
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="load-more-properties-list">Load More</button>
+            </div>
+            <div class="grid-adv">
+                <h3>Advertisment</h3>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container-property">
+        <section class="footer-grid-container-property">
+            <div class="contacts">
+                <p class="footer-p1">
+                    <b>Contact Us</b>
+                </p>
+                <p>6116 Second W Gore Crescent, Monrovia, Liberia, West Africa</p>
+                <p>+231776654128 <br> kanmuteh1@kwagei.com</p>
+
+            </div>
+            <div class="quick-links">
+                <p class="footer-p1">
+                    <b>Quick Links</b>
+                </p>
+                <p>Register</p>
+                <p>Logein</p>
+                <p>Post Property</p>
+                <p>Our Recent Poasting</p>
+                <p>FAQ</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="recent-posts">
+                <p class="footer-p1">
+                    <b>Our Recent Posting</b>
+                </p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+            </div>
+        </section>
+        <section class="rights-footer">
+            <hr class="footer-hr">
+            <div class="copy-rights">
+                <div class="copy-right-detials">
+                    <p><b>copyright &copy; 2017-Kwagei-Group All Rights Reserved</b></p>
+                </div>
+                <div class="copy-right-brand">
+                    <a href="#">Houses</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

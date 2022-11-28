@@ -1,0 +1,84 @@
+.filter{
+    padding: 2% 6% 2% 6%;
+    width: 40%;
+    margin: 8% auto 0% auto;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+}
+
+.filter-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filter-nav-icon{
+    color: white;
+}
+
+.filter-nav-links{
+    text-align: right;
+}
+
+.filter-nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 12%;
+}
+
+.keywords{
+    padding: 2% 1% 0% 1%;
+}
+
+.keywords input{
+    width: 97%;
+    outline: none;
+    font-weight: bold;
+    padding: 1.3% .5% 1.3% 4%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.cat-searches{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8%;
+    width: 99.5%;
+    padding: 3.5% 0% 1.3% 0%;
+    margin-left: 1%;
+}
+
+.cat-selesion{
+    text-align: left;
+    width: 100%;
+    outline: none;
+    font-weight: bold;
+    padding: 2% 4% 2% 8%;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-bottom: 6%;
+}
+
+.cat-right{
+    text-align: right;
+}
+
+.cat-price{
+    color: white;
+    font-size: small;
+}
+
+.cat-find{
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    border: 2px solid blue;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.cat-range{
+    margin-left: 0%;
+    width: 100%;
+}

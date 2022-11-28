@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rwd-project-Houses</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="properties-list-body">
+    <header>
+        <div class="big-head">
+            <div class="left">
+                <div id="logo">
+                    <a href="index.html">Houses</a> 
+                </div>
+            </div>
+            <div class="right">
+                <div class="up">
+                    <div class="up-left">
+                        <div class="links">
+                            <a href="index.html">Home</a>
+                            <a href="properties-grid.html">Our Properties</a>
+                        </div>
+                    </div>
+                    <div class="up-right">
+                        <div class="links">
+                            <a href="login.html">Login</a>
+                            <span>|</span>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="down">
+                    <div class="down-left">
+                        <div class="links">
+                            <a href="index.html">Home</a>
+                            <span>&gt</span>
+                            <a href="#">Houses</a>
+                        </div>
+                    </div>
+                    <div class="down-right">
+                        <div class="links">
+                            <a href="#">
+                                 <button class="post-property"><b>Post a Property</b></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hambugger">
+                <div id="menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="property-grids-section">
+            <div class="grid-search">
+                <p class="search-txt">Search</p>
+                <input type="text" class="search-input-area" placeholder="Search">
+                <br><br>
+                <label for="category">
+                    <b>category</b>
+                    <br>
+                    <input type="text" placeholder="Most Recent" id="category" class="search-input">
+                    <select name="" id="">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                </label>
+                
+                <br><br>
+                <label for="location">
+                    <b> Location</b>
+                    <br>
+                    <input type="text" placeholder="Most Recent" id="location" class="search-input">
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="bedrooms">
+                    <b> Bedrooms</b>
+                    <br>
+                    <input type="text" placeholder="Most Recent" id="bedrooms" class="search-input">
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="bathrooms">
+                    <b> Bathrooms</b>
+                    <br>
+                    <input type="text" placeholder="Most Recent" id="bathrooms" class="search-input">
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </label>
+                <br><br>
+                <label for="range">
+                    <b>Price: $00.00-$10,000.00</b>
+                    <input type="range" class="range" id="range">
+                </label>
+                <br><br>
+                <button class="done-btn"><b>Done</b></button>
+            </div>
+            <div class="grid-items-wrapper">
+                <div class="property-img">
+                    <div class="left-and-rigt-arrow">
+                        <div class="left-arrow">&lt;</div>
+                        <div class="right-arrow">&gt;</div>
+                    </div>
+                    <div class="property-sub-img">
+                        <div class="property-sub-imgs">
+                            <div class="property-sub-img-1"></div>
+                            <div class="property-sub-img-2"></div>
+                            <div class="property-sub-img-3"></div>
+                            <div class="property-sub-img-4"></div>
+                            <div class="property-sub-img-5"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="apaerment-talk">
+                    <div class="apartment-talk-p">
+                        <p class="apartment-talk-p1">
+                            <b>3 Besroom Townhouse</b> 
+                        </p>
+                        <p class="apartment-talk-p2">Circle commonwealth Dr, Grand Cape Mount, Liberia</p>
+                        <div class="single-prop-four-btns">
+                            <div class="single-prop-ratings">
+                                <span class="material-symbols-outlined" id="change_history">
+                                    change_history
+                                </span> 1
+                            </div>
+                            <div class="single-prop-ratings">
+                                <span class="fas fa-book-bookmark"  id="booking"></span> 3  
+                            </div>
+                            <div class="single-prop-ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">memory</span> 2
+                            </div>
+                            <div class="single-prop-ratings">
+                                <span class="material-symbols-outlined" id="change_history" data-v-ae24d7ab="">desktop_windows</span> 11
+                            </div>
+                        </div>
+                        <p class="apartment-talk-p2">Peter Wayne</p>
+                        <button class="call">Give Peter a call</button>
+                        <button class="send-message">Send Peter an Email</button>
+                    </div>
+                    <div class="apartment-prize-btn">
+                        <input type="button" value="$500.00/month">
+                    </div>
+                </div>
+                <div class="property-discription">
+                    <p class="property-discription-p1">
+                       <b> Property Discription</b>
+                    </p>
+                    <p class="property-discription-p2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum assumenda iure sequi molestiae architecto exercitationem quae. Perferendis voluptatem eos cumque molestiae dolore natus facere nemo nam? Aspernatur fuga voluptate quaerat!Lorem
+                    </p>
+                    <p class="property-discription-p1">
+                        <b>AVAILABLE AMENITIES</b>
+                    </p>
+                </div>
+                <div class="available-amenities">
+                    <div class="available-amenities-items">
+                        <p>Garage</p>
+                        <p>Swimming Pool</p>
+                        <p>Luundry Room</p>
+                        <p>Advertisement</p>
+                        <p>Garden</p>
+                        <p>Generator</p>
+                    </div>
+                    <div class="available-amenities-items">
+                        <p>Garage</p>
+                        <p>Swimming Pool</p>
+                        <p>Luundry Room</p>
+                        <p>Advertisement</p>
+                        <p>Garden</p>
+                        <p>Generator</p>
+                    </div>
+                    <div class="available-amenities-items">
+                        <p>Garage</p>
+                        <p>Swimming Pool</p>
+                        <p>Luundry Room</p>
+                        <p>Advertisement</p>
+                        <p>Garden</p>
+                        <p>Generator</p>
+                    </div>
+                </div>
+                <div class="map-img">      
+                </div>
+            </div>
+            <div class="property-grid-adv">
+                <h3>Advertisment</h3>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container-property">
+        <section class="footer-grid-container-property">
+            <div class="contacts">
+                <p class="footer-p1">
+                    <b>Contact Us</b>
+                </p>
+                <p>6116 Second W Gore Crescent, Monrovia, Liberia, West Africa</p>
+                <p>+231776654128 <br> kanmuteh1@kwagei.com</p>
+
+            </div>
+            <div class="quick-links">
+                <p class="footer-p1">
+                    <b>Quick Links</b>
+                </p>
+                <p>Register</p>
+                <p>Logein</p>
+                <p>Post Property</p>
+                <p>Our Recent Poasting</p>
+                <p>FAQ</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="recent-posts">
+                <p class="footer-p1">
+                    <b>Our Recent Posting</b>
+                </p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+                <p>3 Bedroom Apartment at Sinkor Heights</p>
+            </div>
+        </section>
+        <section class="rights-footer">
+            <hr class="footer-hr">
+            <div class="copy-rights">
+                <div class="copy-right-detials">
+                    <p><b>copyright &copy; 2017-Kwagei-Group All Rights Reserved</b></p>
+                </div>
+                <div class="copy-right-brand">
+                    <a href="#">Houses</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

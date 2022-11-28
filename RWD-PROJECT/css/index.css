@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import "header.css";
+
+/* login style */
+@import "login.css";
+
+/* register style */
+@import "register.css";
+
+/* properties-list styling*/
+@import "properties-list.css";
+
+/* properties-grid styling */
+@import "property-grid.css";
+
+/* property styling */
+@import "property.css";
+
+/* find-a-property styling */
+@import "find-a-property.css";
+
+/* filter styling */
+@import "filter.css";
+
+/* footer styling */
+@import "footer.css";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+/* * {
+font-family: "Raleway";
+box-sizing: border-box;
+} */

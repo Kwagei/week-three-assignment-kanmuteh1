@@ -1,0 +1,68 @@
+.find-a-property{
+    width:40%;
+    margin: 10% auto 0% auto;
+}
+
+.caption{
+    color: white;
+    font-size: 2.5rem;
+}
+
+input{
+    outline: none;
+}
+
+.find{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.find input{
+    width: 100%;
+    padding: 1.5%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    border: none
+}
+
+.filfer-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.filfer-icon{
+    text-align: right;
+    color: white;
+}
+
+.latest{
+    margin-top: 40%;
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 720px){
+    .find-a-property{
+        width: 40%;
+        margin: 20% auto 0% auto;
+    }
+
+    .caption{
+        color: white;
+        font-size: 1rem;
+    }
+
+    .find{
+        margin-bottom: 2%;
+    }
+
+    .find input{
+        padding: 4%;
+    }
+
+    .latest{
+        margin-top: 50%;
+        text-align: center;
+        color: white;
+    }
+}
